@@ -70,9 +70,11 @@ def edit_json(json_data, data_path) :
 
 
 def load_json(label_path, data_path, save_path, save_json_name) :
-    file_name = os.path.join(save_path, save_json_name)
+    if not os.path.exists(save_path) :
+        os.makedirs(save_path)
 
-    if os.path.isfile(file_name) :
+    file_name = os.path.join(save_path, save_json_name)
+    if os.path.exists(file_name) :
         print(f'Using already exist json file : {file_name}')
         print('\n')
         with open(file_name, 'r') as f :
