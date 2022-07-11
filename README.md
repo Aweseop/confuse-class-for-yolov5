@@ -7,7 +7,9 @@ Can't see all of them to understand data features. It can be numerically checkin
 - The smaller the variance value, the more confusing the class
 
 ![confused1](https://user-images.githubusercontent.com/87693860/178217459-85d88a34-2dc9-4f6c-943e-170e84e530ba.PNG)
+
 <br>
+
 ![confused2](https://user-images.githubusercontent.com/87693860/178217467-b8227dd7-7eea-4f88-86d8-437fcf646ec7.PNG)
 
 ---
