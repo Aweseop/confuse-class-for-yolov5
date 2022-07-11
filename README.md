@@ -11,11 +11,3 @@ Can't see all of them to understand data features. It can be numerically checkin
 <br>
 
 ![confused2](https://user-images.githubusercontent.com/87693860/178217467-b8227dd7-7eea-4f88-86d8-437fcf646ec7.PNG)
-
----
-
-## Usage
-```
-# Train, test ViT Using the MNIST dataset
-python main.py --threshold 0.05 --class_id 'all' 
-```
